@@ -1,0 +1,173 @@
+{
+  "_about": "GENERATED. Values for the Flutter theme (kl_design). Colours as ARGB ints, sizes in logical pixels (dp).",
+  "colors": {
+    "bg": "0xFFFFFFFF",
+    "surface": "0xFFF6F7FB",
+    "surface-raised": "0xFFFFFFFF",
+    "border": "0xFFD9DCE6",
+    "border-input": "0xFF737A90",
+    "text": "0xFF1B2133",
+    "text-muted": "0xFF565D73",
+    "accent": "0xFF0F6B7A",
+    "accent-hover": "0xFF0B5763",
+    "on-accent": "0xFFFFFFFF",
+    "accent-soft": "0xFFE3F2F4",
+    "on-accent-soft": "0xFF0B4D58",
+    "danger": "0xFFB42318",
+    "on-danger": "0xFFFFFFFF",
+    "success": "0xFF1D7044",
+    "warning-text": "0xFF8A5300",
+    "warning-surface": "0xFFFFF4E0",
+    "notice-dot": "0xFFD1245C",
+    "focus": "0xFF0F6B7A",
+    "kids-text": "0xFFFFFFFF",
+    "kids-focus": "0xFFFFD23F",
+    "kids-star": "0xFFFFD23F",
+    "kids-pill-bg": "0xFFFFFFFF",
+    "kids-pill-text": "0xFF1B2133",
+    "kids-fav-bg": "0xFF1B2133",
+    "kids-fav-icon": "0xFFFFFFFF",
+    "kids-fav-on": "0xFFFF5A7A",
+    "kids-play-bg": "0xFF12505F",
+    "kids-play-bar": "0xFF0B3A46",
+    "kids-theater-bg": "0xFF8C3B12",
+    "kids-theater-bar": "0xFF6A2A0B",
+    "kids-playtogether-bg": "0xFF1F5E36",
+    "kids-playtogether-bar": "0xFF164628",
+    "kids-lessons-bg": "0xFFDCE9FF",
+    "kids-lessons-bar": "0xFF1F3C8A",
+    "kids-lessons-text": "0xFF14214D",
+    "kids-gate-bg": "0xFF2D3E8C",
+    "kids-key-bg": "0xFFFFFFFF",
+    "kids-key-text": "0xFF14214D",
+    "kids-locked-overlay": "0xFF1B2133",
+    "kids-on-locked": "0xFFFFFFFF",
+    "admin-sidebar": "0xFF141A2B",
+    "admin-on-sidebar": "0xFFE6E9F2",
+    "admin-on-sidebar-muted": "0xFFA3ABC2",
+    "admin-row-selected": "0xFFE3F2F4"
+  },
+  "fonts": {
+    "kids": "Nunito",
+    "heading": "Nunito",
+    "body": "Inter"
+  },
+  "type": {
+    "xs": {
+      "size": 12,
+      "line": 16,
+      "weight": 500
+    },
+    "sm": {
+      "size": 14,
+      "line": 20,
+      "weight": 400
+    },
+    "base": {
+      "size": 16,
+      "line": 24,
+      "weight": 400
+    },
+    "label": {
+      "size": 16,
+      "line": 22,
+      "weight": 700
+    },
+    "lg": {
+      "size": 20,
+      "line": 28,
+      "weight": 700
+    },
+    "xl": {
+      "size": 28,
+      "line": 34,
+      "weight": 800
+    },
+    "display": {
+      "size": 40,
+      "line": 44,
+      "weight": 800
+    }
+  },
+  "typeKids": {
+    "tab": {
+      "size": 14,
+      "line": 18,
+      "weight": 700
+    },
+    "tab-active": {
+      "size": 16,
+      "line": 20,
+      "weight": 800
+    },
+    "pill": {
+      "size": 18,
+      "line": 22,
+      "weight": 800
+    },
+    "row-title": {
+      "size": 20,
+      "line": 26,
+      "weight": 800
+    },
+    "title": {
+      "size": 28,
+      "line": 34,
+      "weight": 900
+    },
+    "display": {
+      "size": 36,
+      "line": 42,
+      "weight": 900
+    },
+    "badge": {
+      "size": 12,
+      "line": 14,
+      "weight": 800
+    }
+  },
+  "space": [
+    0,
+    4,
+    8,
+    12,
+    16,
+    20,
+    24,
+    32,
+    40,
+    48,
+    56,
+    64
+  ],
+  "radius": {
+    "sm": 8,
+    "md": 12,
+    "lg": 16,
+    "xl": 24,
+    "pill": 999
+  },
+  "size": {
+    "tap-min-parent": 44,
+    "tap-min-kids": 56,
+    "kid-card-w": 236,
+    "kid-card-h": 178,
+    "kid-card-gap": 24,
+    "kid-gutter": 56,
+    "kid-header-h": 64,
+    "kid-icon-button": 56,
+    "kid-tabbar-h": 76,
+    "kid-tabbar-w": 384,
+    "parent-gutter": 20,
+    "parent-row-h": 64,
+    "parent-content-max": 640,
+    "web-sidebar-w": 264,
+    "web-content-max": 1120,
+    "admin-row-h": 40
+  },
+  "motionMs": {
+    "fast": 120,
+    "base": 200,
+    "playful": 320
+  }
+}

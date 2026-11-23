@@ -1,0 +1,17 @@
+# secrets
+.env
+.env.*
+!.env.example
+# supabase local state
+supabase/.temp/
+supabase/.branches/
+supabase/.env
+# os / tools
+.DS_Store
+node_modules/
+# build and tool output (each app ignores these too; kept here as a safety net)
+.vercel/
+.next/
+*.tsbuildinfo
+test-results/
+playwright-report/

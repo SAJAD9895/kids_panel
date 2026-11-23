@@ -1,0 +1,266 @@
+{
+  "_about": "GENERATED. Input for the Dart ThemeExtension generator in packages/dart/kl_design. Colours ARGB, sizes in logical pixels.",
+  "colors": {
+    "kids-bg": "0xFFFFF8EE",
+    "kids-bg-alt": "0xFFFFF1DC",
+    "kids-surface": "0xFFFFFFFF",
+    "kids-ink": "0xFF1F2A44",
+    "kids-ink-muted": "0xFF586079",
+    "kids-line": "0xFFEADFCB",
+    "kids-focus": "0xFF1F2A44",
+    "kids-scrim": "0xFF1F2A44",
+    "kids-on-scrim": "0xFFFFFFFF",
+    "kids-star": "0xFFFFB020",
+    "kids-success": "0xFF1F7A45",
+    "kids-success-fill": "0xFF7BD88F",
+    "kids-play-fill": "0xFFFF8A65",
+    "kids-play-soft": "0xFFFFE6DC",
+    "kids-play-ink": "0xFFA0361A",
+    "kids-learn-fill": "0xFF6AA6FF",
+    "kids-learn-soft": "0xFFE2EEFF",
+    "kids-learn-ink": "0xFF1E4FB8",
+    "kids-watch-fill": "0xFF2EC4B6",
+    "kids-watch-soft": "0xFFD8F6F2",
+    "kids-watch-ink": "0xFF0B6B62",
+    "kids-listen-fill": "0xFFFFC94D",
+    "kids-listen-soft": "0xFFFFF2C9",
+    "kids-listen-ink": "0xFF855A00",
+    "kids-me-fill": "0xFF7BD88F",
+    "kids-me-soft": "0xFFE1F8E6",
+    "kids-me-ink": "0xFF1F6B33",
+    "kids-paint-red": "0xFFE5484D",
+    "kids-paint-blue": "0xFF3E63DD",
+    "kids-paint-yellow": "0xFFFFC53D",
+    "kids-paint-green": "0xFF30A46C",
+    "kids-paint-purple": "0xFF8E4EC6",
+    "kids-paint-orange": "0xFFF76B15",
+    "ui-bg": "0xFFFFFFFF",
+    "ui-surface": "0xFFF6F7FB",
+    "ui-surface-raised": "0xFFFFFFFF",
+    "ui-border": "0xFFE1E4EC",
+    "ui-border-input": "0xFF747B91",
+    "ui-text": "0xFF1A2033",
+    "ui-text-muted": "0xFF586079",
+    "ui-primary": "0xFF0F6B7A",
+    "ui-primary-hover": "0xFF0B5763",
+    "ui-on-primary": "0xFFFFFFFF",
+    "ui-primary-soft": "0xFFE2F2F4",
+    "ui-on-primary-soft": "0xFF0B4D58",
+    "ui-danger": "0xFFB42318",
+    "ui-on-danger": "0xFFFFFFFF",
+    "ui-danger-soft": "0xFFFDECEA",
+    "ui-success": "0xFF1D7044",
+    "ui-success-soft": "0xFFE3F4EA",
+    "ui-warning-text": "0xFF8A5300",
+    "ui-warning-soft": "0xFFFFF4E0",
+    "ui-info": "0xFF1E4FB8",
+    "ui-info-soft": "0xFFE2EEFF",
+    "ui-notice-dot": "0xFFD1245C",
+    "ui-focus": "0xFF0F6B7A",
+    "ui-chart-1": "0xFF0F6B7A",
+    "ui-chart-2": "0xFFD9652A",
+    "ui-chart-3": "0xFF5466D4",
+    "ui-chart-4": "0xFFB8458A",
+    "ui-chart-5": "0xFF6F8A1F",
+    "admin-sidebar": "0xFF141A2B",
+    "admin-on-sidebar": "0xFFE6E9F2",
+    "admin-on-sidebar-muted": "0xFFA3ABC2",
+    "admin-sidebar-active": "0xFF26304A",
+    "admin-row-selected": "0xFFE2F2F4"
+  },
+  "fontFamilies": {
+    "display": "Fredoka",
+    "kids": "Nunito",
+    "reading": "Andika",
+    "sans": "Inter"
+  },
+  "type": {
+    "kids": {
+      "display": {
+        "font": "display",
+        "size": 48,
+        "line": 54,
+        "weight": 600
+      },
+      "title": {
+        "font": "display",
+        "size": 34,
+        "line": 40,
+        "weight": 600
+      },
+      "heading": {
+        "font": "display",
+        "size": 26,
+        "line": 32,
+        "weight": 600
+      },
+      "label": {
+        "font": "kids",
+        "size": 20,
+        "line": 24,
+        "weight": 800
+      },
+      "body": {
+        "font": "kids",
+        "size": 18,
+        "line": 26,
+        "weight": 700
+      },
+      "caption": {
+        "font": "kids",
+        "size": 15,
+        "line": 20,
+        "weight": 800
+      },
+      "reading-lg": {
+        "font": "reading",
+        "size": 30,
+        "line": 44,
+        "weight": 400
+      },
+      "reading": {
+        "font": "reading",
+        "size": 22,
+        "line": 34,
+        "weight": 400
+      }
+    },
+    "ui": {
+      "display": {
+        "font": "display",
+        "size": 36,
+        "line": 44,
+        "weight": 600
+      },
+      "h1": {
+        "font": "display",
+        "size": 28,
+        "line": 34,
+        "weight": 600
+      },
+      "h2": {
+        "font": "sans",
+        "size": 20,
+        "line": 28,
+        "weight": 700
+      },
+      "h3": {
+        "font": "sans",
+        "size": 16,
+        "line": 24,
+        "weight": 700
+      },
+      "body": {
+        "font": "sans",
+        "size": 16,
+        "line": 24,
+        "weight": 400
+      },
+      "body-strong": {
+        "font": "sans",
+        "size": 16,
+        "line": 24,
+        "weight": 600
+      },
+      "small": {
+        "font": "sans",
+        "size": 14,
+        "line": 20,
+        "weight": 400
+      },
+      "caption": {
+        "font": "sans",
+        "size": 12,
+        "line": 16,
+        "weight": 600
+      },
+      "metric": {
+        "font": "display",
+        "size": 40,
+        "line": 44,
+        "weight": 600
+      },
+      "code": {
+        "font": "mono",
+        "size": 13,
+        "line": 20,
+        "weight": 400
+      }
+    }
+  },
+  "space": [
+    0,
+    2,
+    4,
+    8,
+    12,
+    16,
+    20,
+    24,
+    32,
+    40,
+    48,
+    64,
+    80
+  ],
+  "radius": {
+    "xs": 6,
+    "sm": 8,
+    "md": 12,
+    "lg": 16,
+    "xl": 24,
+    "2xl": 32,
+    "pill": 999
+  },
+  "size": {
+    "tap-kids": 64,
+    "tap-kids-secondary": 56,
+    "tap-kids-xl": 84,
+    "tap-ui": 44,
+    "tap-gap-kids": 12,
+    "kids-rail-w": 112,
+    "kids-header-h": 80,
+    "kids-card-w": 240,
+    "kids-card-art-h": 160,
+    "kids-hero-h": 240,
+    "kids-short-screen": 500,
+    "kids-video-w": 300,
+    "kids-book-w": 180,
+    "kids-book-h": 240,
+    "kids-album-w": 200,
+    "kids-node": 96,
+    "kids-buddy-tile": 128,
+    "kids-art-lg": 220,
+    "ui-sidebar-w": 256,
+    "ui-topbar-h": 64,
+    "ui-content-max": 1200,
+    "ui-form-w": 460,
+    "ui-row-h": 48,
+    "ui-chart-h": 160,
+    "admin-row-h": 40,
+    "icon-sm": 16,
+    "icon-md": 20,
+    "icon-lg": 24,
+    "icon-kids": 32
+  },
+  "breakpoints": {
+    "compact": 0,
+    "medium": 600,
+    "expanded": 840,
+    "large": 1200,
+    "xlarge": 1600
+  },
+  "motionMs": {
+    "instant": 80,
+    "fast": 150,
+    "base": 240,
+    "slow": 400,
+    "celebrate": 900
+  },
+  "curves": {
+    "ease-standard": "cubic-bezier(.2,0,0,1)",
+    "ease-decelerate": "cubic-bezier(0,0,0,1)",
+    "ease-accelerate": "cubic-bezier(.3,0,1,1)",
+    "ease-bounce": "cubic-bezier(.34,1.56,.64,1)"
+  }
+}

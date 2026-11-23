@@ -1,0 +1,224 @@
+{
+ "intro": {
+  "text": "Every kind",
+  "speak": "Every kind"
+ },
+ "levels": [
+  {
+   "id": "easy",
+   "label": "Easy",
+   "minAgeMonths": 0,
+   "items": [
+    {
+     "kind": "multiple_choice",
+     "prompt": {
+      "text": "Which one is red?",
+      "speak": "Which one is red?"
+     },
+     "options": [
+      "Apple",
+      "Banana",
+      "Grape"
+     ],
+     "correct": [
+      "Apple"
+     ],
+     "hint": "Think of a fruit for a teacher"
+    },
+    {
+     "kind": "image_choice",
+     "prompt": {
+      "text": "Find the cat",
+      "speak": "Find the cat"
+     },
+     "options": [
+      {
+       "id": "o1",
+       "label": "Cat",
+       "picture": "icon:cat"
+      },
+      {
+       "id": "o2",
+       "label": "Dog",
+       "picture": "icon:dog"
+      }
+     ],
+     "correct": [
+      "o1"
+     ]
+    },
+    {
+     "kind": "audio_choice",
+     "prompt": {
+      "text": "Which animal says moo?",
+      "speak": "Which animal says moo?"
+     },
+     "options": [
+      "Cow",
+      "Cat",
+      "Duck"
+     ],
+     "correct": [
+      "Cow"
+     ]
+    },
+    {
+     "kind": "fill_blank",
+     "sentence": "The sun is ___",
+     "options": [
+      "hot",
+      "cold"
+     ],
+     "correct": [
+      "hot"
+     ]
+    },
+    {
+     "kind": "word_build",
+     "word": "cat",
+     "extra": [
+      "x",
+      "z"
+     ],
+     "picture": "icon:cat",
+     "hint": "It says meow"
+    },
+    {
+     "kind": "letter_recognition",
+     "target": "b",
+     "mode": "name",
+     "distractors": [
+      "d",
+      "p"
+     ]
+    },
+    {
+     "kind": "trace",
+     "glyph": "a"
+    },
+    {
+     "kind": "number_recognition",
+     "count": 3,
+     "picture": "icon:apple"
+    }
+   ]
+  },
+  {
+   "id": "hard",
+   "label": "Hard",
+   "minAgeMonths": 60,
+   "items": [
+    {
+     "kind": "arithmetic",
+     "a": 2,
+     "op": "+",
+     "b": 3,
+     "picture": "icon:apple"
+    },
+    {
+     "kind": "match_pairs",
+     "prompt": {
+      "text": "Match the pairs",
+      "speak": "Match the pairs"
+     },
+     "pairs": [
+      {
+       "left": {
+        "label": "A"
+       },
+       "right": {
+        "label": "a"
+       }
+      },
+      {
+       "left": {
+        "label": "B"
+       },
+       "right": {
+        "label": "b"
+       }
+      }
+     ]
+    },
+    {
+     "kind": "memory",
+     "cards": [
+      {
+       "id": "o1",
+       "label": "Sun",
+       "picture": "icon:sun"
+      },
+      {
+       "id": "o2",
+       "label": "Moon",
+       "picture": "icon:moon"
+      },
+      {
+       "id": "o3",
+       "label": "Star",
+       "picture": "icon:star"
+      }
+     ],
+     "timer": true
+    },
+    {
+     "kind": "sort",
+     "prompt": {
+      "text": "Fruit or toy?",
+      "speak": "Fruit or toy?"
+     },
+     "bins": [
+      "Fruit",
+      "Toy"
+     ],
+     "items": [
+      {
+       "label": "Apple",
+       "picture": "icon:apple",
+       "bin": "Fruit"
+      },
+      {
+       "label": "Ball",
+       "picture": "icon:ball",
+       "bin": "Toy"
+      }
+     ]
+    },
+    {
+     "kind": "drag_to_target",
+     "prompt": {
+      "text": "Put each one home",
+      "speak": "Put each one home"
+     },
+     "tokens": [
+      "bee",
+      "fish"
+     ],
+     "targets": [
+      "hive",
+      "sea"
+     ],
+     "solution": {
+      "bee": "hive",
+      "fish": "sea"
+     }
+    },
+    {
+     "kind": "puzzle",
+     "picture": "char:pip",
+     "grid": 2
+    },
+    {
+     "kind": "jigsaw",
+     "picture": "char:nova",
+     "grid": 3
+    },
+    {
+     "kind": "shape_complete",
+     "shape": "star",
+     "missing": "left"
+    }
+   ]
+  }
+ ]
+}

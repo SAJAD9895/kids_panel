@@ -1,0 +1,110 @@
+# Supabase CLI configuration for LOCAL development (`supabase start`) and the source of the auth
+# settings to mirror in the hosted project (docs/backend/setup-guide.md §4). No secrets here:
+# every secret is read with env(...) from an untracked env file.
+project_id = "kids-learning-platform"
+
+[api]
+enabled = true
+port = 54321
+# Only `public` goes through the Data API. `private` (helpers, privileged functions) and
+# `analytics` are never exposed. GraphQL is not used.
+schemas = ["public"]
+extra_search_path = ["public", "extensions"]
+max_rows = 1000
+
+[db]
+port = 54322
+major_version = 17
+
+[db.seed]
+enabled = true
+sql_paths = ["./seed.sql"]
+
+[storage]
+enabled = true
+# Must be ≥ the largest bucket limit (admin-staging, 2 GB); buckets set their own lower limits.
+file_size_limit = "2GiB"
+
+[auth]
+enabled = true
+site_url = "http://localhost:3000"
+additional_redirect_urls = [
+  "http://localhost:3000/auth/callback",   # parent web (Next.js)
+  "http://localhost:3001/auth/callback",   # admin web (Next.js)
+  "http://localhost:8080/auth/callback",   # children's web (Flutter web)
+  "io.kidslearning.app://auth/callback",   # mobile deep link (placeholder scheme until /replica-brand)
+]
+jwt_expiry = 3600
+enable_refresh_token_rotation = true
+refresh_token_reuse_interval = 10
+enable_signup = true
+enable_anonymous_sign_ins = false
+minimum_password_length = 10
+password_requirements = "lower_upper_letters_digits"
+
+[auth.rate_limit]
+email_sent = 2              # per hour on the built-in sender; raise after custom SMTP is set
+token_verifications = 30
+sign_in_sign_ups = 30
+token_refresh = 150
+
+[auth.email]
+enable_signup = true
+double_confirm_changes = true
+enable_confirmations = true
+secure_password_change = true
+max_frequency = "60s"
+otp_length = 6
+otp_expiry = 600
+
+# Magic link AND a 6-digit code in the same email (docs/architecture/06-auth §6.1).
+[auth.email.template.magic_link]
+subject = "Your sign-in link and code"
+content_path = "./supabase/templates/magic-link.html"
+
+[auth.email.template.confirmation]
+subject = "Confirm your email"
+content_path = "./supabase/templates/confirmation.html"
+
+[auth.email.template.email_change]
+subject = "Confirm your new email address"
+content_path = "./supabase/templates/email-change.html"
+
+[auth.email.template.recovery]
+subject = "Reset your password"
+content_path = "./supabase/templates/recovery.html"
+
+# Custom SMTP (Resend) for real delivery; locally Inbucket catches every email.
+# [auth.email.smtp]
+# enabled = true
+# host = "smtp.resend.com"
+# port = 465
+# user = "resend"
+# pass = "env(RESEND_API_KEY)"
+# admin_email = "no-reply@YOUR-DOMAIN"
+# sender_name = "YOUR APP NAME"
+
+# Admins must use TOTP; the database only honours admin permissions in an aal2 session.
+[auth.mfa]
+max_enrolled_factors = 10
+[auth.mfa.totp]
+enroll_enabled = true
+verify_enabled = true
+
+[auth.external.apple]
+enabled = false
+client_id = "env(SUPABASE_AUTH_EXTERNAL_APPLE_CLIENT_ID)"
+secret = "env(SUPABASE_AUTH_EXTERNAL_APPLE_SECRET)"
+redirect_uri = ""
+skip_nonce_check = false
+
+[auth.external.google]
+enabled = false
+client_id = "env(SUPABASE_AUTH_EXTERNAL_GOOGLE_CLIENT_ID)"
+secret = "env(SUPABASE_AUTH_EXTERNAL_GOOGLE_SECRET)"
+redirect_uri = ""
+skip_nonce_check = false
+
+[edge_runtime]
+enabled = true
+policy = "per_worker"

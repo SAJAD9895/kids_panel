@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@import "./theme.css";
+
+/* Base: the grown-up design tokens (docs/design/tokens). */
+html {
+  color-scheme: light;
+}
+body {
+  background: var(--color-ui-bg);
+  color: var(--color-ui-text);
+  font-family: var(--font-sans);
+}
+:focus-visible {
+  outline: 2px solid var(--color-ui-focus);
+  outline-offset: 2px;
+}

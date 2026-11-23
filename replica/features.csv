@@ -1,0 +1,177 @@
+feature,area,priority,original,clone,notes
+F-001 Child profile created first; then parent email,01 Onboarding,must,yes,yes,"[V] · Phase 7: K05 → K06 kept on the device, sent with consents after sign-in"
+F-002 Email sign-up with no password at creation,01 Onboarding,must,yes,yes,"[V] · Phase 7: email code + magic link, no password at sign-up"
+F-003 Sign in with Apple at sign-up,01 Onboarding,should,yes,partial,"[V] required on iOS if any social login is offered · Phase 7: button and OAuth call in place, hidden until Apple keys exist (ENABLE_APPLE_SIGN_IN)"
+F-004 Plan choice at end of onboarding (free or trial),01 Onboarding,must,yes,no,[V]
+F-005 Plus free trial,01 Onboarding,should,yes,no,[V] length assumed 7 days (U16)
+F-006 Age-based content from the start without a placement test,01 Onboarding,must,yes,yes,"[V] · Phase 8: path, picks and rows chosen by the child's age in months"
+F-007 Sign in with Google,01 Onboarding,should,no,partial,"[P] new: web and Chromebooks · Phase 7: as F-003, Google needs its OAuth client"
+F-010 Magic-link login,02 Auth,must,yes,partial,[V] add a 6-digit code fallback for cross-device · Phase 7: 6-digit code works; link deep-link wired (Android/iOS scheme) but untested without a project
+F-011 Password login and web password reset,02 Auth,must,yes,partial,[V] · Phase 7: password sign-in yes; web password reset not built
+F-012 Apple login for returning users,02 Auth,should,yes,no,[V]
+F-013 One account across many devices,02 Auth,should,yes,yes,[V] · Phase 7: same account on any device; session restored from secure storage
+F-014 Parental gate before grown-up areas,02 Auth,must,yes,yes,"[V+SS] assumed also before purchases and links · Phase 7: K20 number-words gate, 5-minute token, before the whole Parents Area"
+F-015 Gate then confirmation before mic / camera / photo permission,02 Auth,should,yes,no,[V] web uses browser prompts
+F-016 Log out,02 Auth,must,yes,yes,[V] · Phase 7: sign out with confirmation; session state cleared
+F-020 Profile fields: avatar; name; birthdate; level,03 Profiles,must,yes,partial,"[V+SS] · Phase 7: nickname, buddy, birth month+year; level/stage override not editable yet"
+F-021 Up to 4 child profiles (1 on free),03 Profiles,should,yes,yes,[V+SS] · Phase 7: plan limit enforced by the server (Basic 1); clear message in the app
+F-022 Separate progress and recommendations per profile,03 Profiles,must,yes,partial,"[V] · Phase 13: a separate report, goals, controls and export per child; recommendations stay age-based"
+F-023 Profile switcher from the top-left chip,03 Profiles,must,yes,yes,[V+SS] · Phase 7: K35 Who is playing + Switch player; rail chip comes with the K07 shell (M2) · Phase 8: buddy button in the rail / phone header opens the player switcher; whole Kids Area switches
+F-024 Changing birthdate or level changes content,03 Profiles,must,yes,no,[V]
+F-025 Delete one child profile,03 Profiles,could,no,yes,[A] U19 · Phase 7: delete with confirmation and a fresh email code after 10 minutes
+F-030 Sections: Explore; Play; Theater; Lessons; PlayTogether,04 Home & nav,must,yes,partial,"[V+SS] 4 bottom tabs; Explore = top-right search icon (SS) · Phase 8: rail Home/Learn/Watch/Listen/Me (design v1.0); Together row and search not yet · Phase 10: Home shows curated rows, incl. Play together and Game room · Phase 11: Watch and Listen are real libraries (videos; songs + stories)"
+F-031 Feed rows: Daily Picks; Worlds; Topics; Most Played; What's New,04 Home & nav,must,yes,partial,"[V+SS] · Phase 8: Games for today (daily picks), Played lately, Keep going; Worlds/Most played/What's new rows not yet · Phase 10: Game room row (8 games) from collections; Worlds/Most played still not"
+F-032 Feed adapts to age band and level,04 Home & nav,must,yes,no,[V]
+F-033 Free tier: 10 activities a day refreshed every 24h,04 Home & nav,should,yes,no,[V] main source of 1-3 star reviews
+F-034 Favorites: heart on cards; games and videos lists,04 Home & nav,should,yes,partial,"[V+SS] lessons excluded · Phase 8: favourites shown (star on cards, Me › Saved games); adding/removing needs a write route"
+F-035 Shuffle button,04 Home & nav,should,yes,no,[V]
+F-036 Low-reading kid UI (icons; voice prompts),04 Home & nav,must,yes,no,[V]
+F-037 Deep links to an activity or collection,04 Home & nav,should,yes,no,[V] web = plain routes
+F-038 Kids menu with timer shortcut,04 Home & nav,should,yes,no,[V]
+F-040 Browse by 12 subjects,05 Categories,must,yes,yes,[V] · Phase 8: Explore row + all-subjects screen + subject page (K08) with type filters
+F-041 Skills taxonomy (5 groups; 24 skills) tagged on every activity,05 Categories,must,yes,no,[V]
+F-042 Filter by age; English learning path,05 Categories,should,yes,partial,[V] · Phase 8: age filter applied automatically; stage filter on course list; English path not seeded
+F-043 Keyword search across all types,05 Categories,must,yes,no,[A] reviews say search is weak; do better
+F-044 Collections; character worlds; scheduled content drops,05 Categories,must,yes,partial,[V] needs a CMS · Phase 8: collections drive Home/Watch/Listen rows; worlds and scheduled drops not shown separately
+F-045 Category shortcuts: Stories; Handwriting; Music,05 Categories,should,yes,partial,[V] give stories their own entry · Phase 11: Listen has Stories and Songs rows and category chips; no separate home shortcut yet
+F-046 Curriculum map of learning objectives,05 Categories,could,yes,no,[V] write our own map
+F-050 Lesson = one skill; progressive activities; self-paced over 1-2 weeks,06 Lessons,must,yes,partial,[V+SS] · Phase 8: course → islands → steps with sequential unlock shown; playing comes with the game engine · Phase 9: steps now play in the engine; Next step from the completion screen
+F-051 Stages: Preschool; Kindergarten; Grade 1 readiness,06 Lessons,must,yes,yes,"[V] · Phase 8: stages on courses/paths; ""just right for you"" path by age"
+F-052 Lesson subjects: literacy; maths; science; SEL; nutrition; careers; English,06 Lessons,must,yes,no,[V]
+F-053 Pre and post check-ins,06 Lessons,must,yes,no,[V+SS] format unknown (U15)
+F-054 Certificate on completion; kept forever,06 Lessons,must,yes,no,[V+SS] web: print or PDF
+F-055 Recommended lessons by age,06 Lessons,should,yes,yes,[V] · Phase 8: recommended path by age on Learn; Keep going on Home
+F-057 Lesson progress updates to parents,06 Lessons,should,yes,partial,[V] channel unknown · Phase 13: lessons in the report and dashboard; goal notices; no per-lesson notice
+F-060 Mini-game player with celebration on completion,07 Games,must,yes,yes,"[V+SS] · Phase 9: reusable player: intro, hints, retry, feedback, completion with stars (docs/flutter/learning-engine.md) · Phase 10: 8 games with levels, sounds, flip/shake/snap animations, moves/time/score summary (docs/games/game-catalog.md)"
+F-061 Template engines re-skinned with content (v1 = 12 engines),07 Games,must,yes,partial,"[A] see game-inventory.md; each engine declares orientation · Phase 9: engine with 13 activity types registered; content per game still to author · Phase 10: 16 engine types; 8 games as content on template learning_engine (runtime flutter); Flame mechanics (runner, rhythm, stacking) not built"
+F-062 Completion rule: main learning bit done,07 Games,must,yes,yes,[V] · Phase 9: every item done (right or answer shown) = completed; reported to apply_session
+F-063 Mic and camera activities behind the gate,07 Games,could,yes,no,[V] later; extra privacy review
+F-064 Adaptive difficulty nudging up,07 Games,should,yes,partial,"[V] · Phase 9: DifficultyPolicy by age and difficulty (options, tries, hints, trace tolerance); no adaptive nudging yet · Phase 10: Easy/Medium/Hard levels picked by age, Next level after each; automatic nudging still not"
+F-065 Recommend unseen words and ideas,07 Games,should,yes,no,[V]
+F-066 Tracing and handwriting (letters; numbers; words),07 Games,must,yes,partial,"[V] web: mouse tracing tolerance · Phase 9: tracing letters a–h, o, l, x and digits 0–9 with age tolerance; words not yet · Phase 10: capitals A C E F H I K L M N O T U V W X Y Z added; words still not"
+F-070 Theater library by category,08 Videos,must,yes,yes,"[V+SS] · Phase 11: Watch library: featured, keep watching, picked for you, watched lately, curated rows, a row per category, search + category/subject/short filters"
+F-071 Player: tap for controls; autoplay next; kid lock,08 Videos,must,yes,partial,"[V+SS] · Phase 11: tap to show controls (auto-hide in full screen), up next on finish, captions, speed, full screen; no autoplay-next countdown, no kid lock"
+F-072 Activity videos (draw; dance; yoga) and series,08 Videos,should,yes,no,[V]
+F-073 Download videos for offline,08 Videos,should,yes,no,[V] web best-effort · Phase 11: not built: videos stream; offline downloads need the library/downloads routes
+F-074 Finishing a video earns a star,08 Videos,must,yes,yes,[V] · Phase 11: watching to the end (95 %) completes the session; the server awards the star
+F-080 Songs and sing-alongs,09 Music & stories,must,yes,partial,"[V] · Phase 11: 5 original instrumental songs; player with play/pause, previous/next, repeat, shuffle, background audio, mini player; no sung lyrics / sing-along line"
+F-081 Audiobooks with tap-to-read words,09 Music & stories,must,yes,partial,"[V] · Phase 11: illustrated stories with narration (device voice, sentence highlight, tap a sentence to hear it); recorded narration supported but none recorded; no audiobook content"
+F-082 Podcast series,09 Music & stories,could,yes,no,[V]
+F-083 Movement songs (dance; yoga),09 Music & stories,should,yes,no,[V]
+F-090 PlayTogether section,10 Family,should,yes,no,[V+SS]
+F-091 Team challenges; creative; off-screen ideas,10 Family,should,yes,no,[V] completion rule unknown (U06)
+F-092 Same-device multiplayer games,10 Family,could,yes,no,[V+SS] 2-player badges on cards (SS-11)
+F-093 Printables library,10 Family,could,yes,no,[V] original printables are web only
+F-100 One star per distinct activity per day,11 Rewards,must,yes,yes,"[V+SS] · Phase 8: today's stars shown as the daily goal (awarding stays server-side, M2) · Phase 9: awarded server-side by private.apply_session (one per activity per household day) · Phase 12: every star is also a row in the star ledger (star_transactions); the balance includes bonus stars"
+F-101 5 stars = sticker pack; daily reset; no claim deadline,11 Rewards,must,yes,no,[V+SS]
+F-102 Sticker Album,11 Rewards,must,yes,no,[V]
+F-103 Scene Book decorated with stickers,11 Rewards,should,yes,no,[V]
+F-104 Lesson certificates in the rewards area,11 Rewards,should,yes,partial,[V] · Phase 12: the certificate row is issued once on course completion (apply_rewards) and the course badge shows; no certificate view yet
+F-105 Monthly achievement cards,11 Rewards,could,yes,no,[V] details unknown (U09)
+"F-175 Badges: original artwork, descriptions, unlock rules, earned dates",11 Rewards,should,no,yes,"[A] Phase 12 brief · 16 badges (firsts, goals, weeks, learning days, subject explorers, stars); granted once by private.apply_rewards; locked ones shown in grey with how to earn"
+"F-176 Daily and weekly learning goals, set by a parent",11 Rewards,should,no,yes,"[A] Phase 12 brief · default 3 activities a day, 4 learning days a week; parent sets 1-10 / 1-7 or switches off (PUT /children/:id/goals); reaching one gives a bonus star once"
+"F-177 Learning-days streak with current, best and a calendar",11 Rewards,should,no,yes,"[A] Phase 12 brief · household days; one rest day keeps it; two rest days start a new count, the best is kept; late offline days recompute it"
+"F-178 Rewards screen: balance, goals, streak calendar, new stars, achievements, badges",11 Rewards,must,no,yes,"[A] Phase 12 brief · K16 /kids/me/rewards, from Home's goal card and Me"
+"F-179 Celebrations for stars, badges, goals, islands, courses, milestones (reduced motion)",11 Rewards,must,no,yes,[A] Phase 12 brief · one card per session (or a self-closing +1 star banner) only after the server confirms; a still picture with reduce motion
+"F-180 Parent page: rewards, star history, goals, how rewards work",11 Rewards,must,no,yes,[A] Phase 12 brief · P18 /parents/children/:id/rewards
+F-181 Configurable reward rules and a star transaction ledger,11 Rewards,must,no,yes,[A] Phase 12 brief · reward_rules (admin-edited) and star_transactions (unique per reason + reference: no duplicate rewards)
+"F-182 Parent dashboard: every child with time, lessons, games, streak, stars, badges, goals, recent activities",12 Parent dashboard,must,no,yes,[A] Phase 13 brief · P01
+"F-183 Day / week / month reports with charts (time, completion, subjects, skill mastery, consistency, goals) and tables",13 Progress,must,no,yes,[A] Phase 13 brief · P04
+"F-184 In-app notifications: weekly summary, goals reached, account and subscription events; preferences respected",12 Parent dashboard,should,no,yes,[A] Phase 13 brief · P11
+"F-185 Download a child’s or the whole account’s data (JSON, 7 days, signed links)",16 Account,must,no,yes,[A] Phase 13 brief · P12
+F-186 Delete the account with 7 days to cancel; consents shown with dates,16 Account,must,no,yes,[A] Phase 13 brief · P12
+"F-187 Subscription screen: plan, status, store, renewal or end date, store links; buy / restore marked not connected",14 Subscription,must,no,partial,[A] Phase 13 brief · P06
+F-110 Parents Area behind the gate,12 Parent dashboard,must,yes,yes,"[V+SS] web: full dashboard · Phase 13: dashboard, report, notifications, privacy, subscription; every route behind the gate (tested)"
+F-111 Daily screen-time limit per child,12 Parent dashboard,must,yes,yes,"[V+SS] enforce server-side on web · Phase 11: daily limit per child (5-600 min), counted by play/heartbeat, enforced at launch and while playing; Time's up screen"
+F-112 Limit scope by type; games exempt,12 Parent dashboard,should,yes,yes,"[V] · Phase 11: limit counts the sections the parent picks (videos, songs and stories); games never limited"
+F-113 Turn sections off (Play always on),12 Parent dashboard,must,yes,yes,[V] · Phase 8: switched-off sections disappear from the rail; the parent switch screen (P03) not built · Phase 11: parent screen P03: Videos / Songs and stories switches; enforced at launch
+F-114 Remove all limits,12 Parent dashboard,should,yes,yes,[V] · Phase 11: No limit option
+F-115 Push and email notification preferences,12 Parent dashboard,should,yes,partial,[V] · Phase 13: per-type in-app preferences (P11); email and push not connected
+F-116 Parent community,12 Parent dashboard,could,yes,no,[V] unclear what it is (U12)
+F-117 Time's-up screen,12 Parent dashboard,must,no,no,[A] U04
+F-120 Activities completed count,13 Progress,must,yes,yes,[V+SS] · Phase 13: activities finished per day / week / month (P04)
+F-121 Top skill and most repeated activity,13 Progress,must,yes,partial,"[V+SS] · Phase 13: skills by mastery and games by plays; no single ""top"" callout"
+F-122 Top 3 subjects,13 Progress,must,yes,yes,"[V+SS] · Phase 13: progress by subject, sorted (P04)"
+F-123 Top skills with their activities,13 Progress,must,yes,partial,[V+SS] · Phase 13: skill mastery with evidence counts; the activities behind each skill are not listed
+F-124 Empty state until 5 activities,13 Progress,must,yes,partial,[V+SS] · Phase 13: empty state per period; strengths need >= 3 scored activities (no fixed 5-activity gate)
+F-125 Per-lesson pre/post comparison,13 Progress,should,no,no,[A] promised in R5; not shown in R10
+F-130 Monthly and yearly auto-renew,14 Subscription,must,yes,no,[V]
+F-131 Store purchases (Google Play; App Store),14 Subscription,must,yes,no,[V] Amazon/Huawei out of scope for v1
+F-132 Web checkout (Stripe),14 Subscription,must,yes,no,[V]
+F-133 Redeem codes with caps,14 Subscription,should,yes,no,[V]
+F-134 Cancel: in-app for web subs; store for store subs,14 Subscription,must,yes,partial,[V] · Phase 13: store subscription pages linked (P06); web (Stripe) cancel not connected
+F-135 Access to period end then fall back to free,14 Subscription,must,yes,no,[V]
+F-136 Refund handling per channel,14 Subscription,could,yes,no,[V]
+F-137 Local pricing and promotions,14 Subscription,should,yes,no,[V]
+F-138 Upsell on locked content,14 Subscription,should,yes,no,[A]
+F-139 Unified entitlements across Apple; Google; Stripe,14 Subscription,must,no,no,[P] new: server-side; fixes 'paid but no access'
+F-140 Per-activity download,15 Offline,must,yes,no,[V+SS] web = cache; best-effort
+F-141 Offline mode hides non-downloaded items,15 Offline,must,yes,no,[V]
+F-142 My Downloads: delete one or all,15 Offline,must,yes,no,[V+SS]
+F-143 Download all favorites,15 Offline,should,yes,no,[V]
+F-144 Offline progress and stars sync later,15 Offline,must,no,partial,[A] U07; we must design it · Phase 9: outbox on device + snapshots; sent on next game / start / sign-in; idempotent per session
+F-150 Change account email,16 Account,must,yes,no,[V]
+F-151 Delete account in the app,16 Account,must,yes,no,[V] store rules require it
+F-152 Plan and renewal date shown,16 Account,must,yes,no,[V]
+F-153 Printables link,16 Account,could,yes,no,[V]
+F-154 Contact support,16 Account,should,yes,no,[V]
+F-155 UI language setting,16 Account,should,yes,no,[V] U10
+F-160 Per-tab colour theme,04 Home & nav,should,yes,no,[SS]
+F-161 Row-level download button on each feed row,15 Offline,should,yes,no,[SS] behaviour U23; web best-effort
+F-162 Cards labelled by skill or theme,05 Categories,should,yes,no,[SS]
+F-163 Player skill chips + up-next rail,08 Videos,must,yes,partial,[SS] · Phase 11: related videos on details + next on finish; no skill chips in the player
+F-164 Workbook > units > nodes with sequential unlock and a progress bar to the goal,06 Lessons,must,yes,yes,[SS] node types: knowledge check; collect; trace · Phase 8: islands and stepping stones with done / now / locked and progress bars and ring
+F-165 Learn Together co-play lessons with narration replay,10 Family,should,yes,no,[SS] U24
+F-166 Character pick before some games,07 Games,could,yes,no,[SS] original characters only
+F-167 Per-activity orientation (portrait or landscape),07 Games,must,yes,no,[SS]
+F-168 Profile drawer with per-child screen-time and edit actions and a progress shortcut,03 Profiles,must,yes,partial,"[SS] · Phase 13: child cards on P01 with report, settings and rewards buttons"
+F-169 Feature-announcement tooltips and notification dots,04 Home & nav,could,yes,no,[SS]
+F-170 Rolling 14-day window; skeleton empty state,13 Progress,must,yes,partial,[SS] web: add a date-range filter · Phase 13: day / week / month periods with previous / next instead of a rolling 14 days
+F-171 Support entry in the Progress Report,16 Account,could,yes,no,[SS]
+F-172 Invite a friend (referral),16 Account,could,yes,no,[SS] U22
+F-173 In-app News,16 Account,could,yes,no,[SS] U22
+F-174 Parents Area in portrait; Kids Area in landscape,12 Parent dashboard,should,yes,no,[SS] web = responsive dashboard
+W-001 Kids player in the browser (games; video; audio),Web (new),must,no,no,[P] the original has no web version
+W-002 Parent web dashboard,Web (new),must,no,partial,[P] · Phase 13: the same responsive dashboard runs in the Flutter web build
+W-003 Installable PWA with offline cache,Web (new),should,no,no,[P]
+W-004 Mouse and keyboard support in all engines,Web (new),must,no,no,[P]
+X-001 No ads; no third-party trackers in kid surfaces,Cross-cutting,must,yes,no,[V]
+X-002 Child privacy compliance (COPPA; GDPR-K),Cross-cutting,must,yes,partial,"[V] the original has kidSAFE COPPA+; get our own · Phase 13: consents view, data export (child / account), account deletion with 7-day grace; legal review still needed"
+X-003 Content CMS with weekly drops,Cross-cutting,must,yes,partial,[V] · Phase 14: admin_panel CMS (F-188–F-199); scheduled weekly drops (publish at a date) not built
+X-004 Multilingual content (EN first),Cross-cutting,should,yes,no,[V] add Arabic and RTL if targeting the Gulf
+B-001 School org with seat licence,17 Schools (pending),should,no,no,[P] pending scope decision
+B-002 Teacher accounts,17 Schools (pending),should,no,no,[P] pending
+B-003 Class roster without student emails,17 Schools (pending),should,no,no,[P] pending
+B-004 Shared-device student login (class code; avatar; picture password),17 Schools (pending),should,no,no,[P] pending
+B-005 Assign lessons to a class,17 Schools (pending),should,no,no,[P] pending
+B-006 Teacher dashboard (class x skill),17 Schools (pending),should,no,no,[P] pending
+S-001 Disney; Pixar; Marvel; Star Wars activities,Skip,skip,yes,skip,[V] licensed IP
+S-002 Blippi; CoComelon; Pocoyo; BBC Earth content,Skip,skip,yes,skip,[V] licensed IP
+S-003 NASA; Oxford University Press; World Literacy Foundation lessons,Skip,skip,yes,skip,[V] partner deals
+S-004 Lingokids characters; names; art; music; videos; activities,Skip,skip,yes,skip,[V] their IP; make original content
+S-005 Lingokids and Playlearning trademarks,Skip,skip,yes,skip,[V] rebrand
+S-006 Their lesson plans and printables,Skip,skip,yes,skip,[V] copyrighted
+S-007 kidSAFE seal; awards; ratings; user base,Skip,skip,yes,skip,[V] earn our own
+S-008 Amazon Fire; Huawei; Mac builds,Skip,skip,yes,skip,[V] not in targets
+"F-188 Admin sign-in with MFA, roles and protected routes",14 Admin CMS,must,no,yes,[A] Phase 14 brief · Phase 14: password + TOTP (aal2); 6 roles incl. super admin and content manager; middleware + page checks + RLS; no self-grant
+F-189 Admin dashboard from live data,14 Admin CMS,must,no,yes,"[A] Phase 14 brief · Phase 14: admin_api.dashboard (parents, children, active subscriptions, courses, lessons, games, published, in review) + recent admin activity"
+"F-190 Publishing workflow with review, approval and validation",14 Admin CMS,must,no,yes,[A] Phase 14 brief · Phase 14: draft → in review → approved → published → archived; four-eyes; validate() before approve/publish; approved content locked
+F-191 Course and lesson builder,14 Admin CMS,must,no,yes,"[A] Phase 14 brief · Phase 14: course details, objectives, difficulty, stage, order; modules; lessons with objectives, instructions, duration, prerequisites (enforced in the app), activity steps"
+F-192 Game builder on the learning engine's format,14 Admin CMS,must,no,yes,"[A] Phase 14 brief · Phase 14: all 16 engine kinds, levels, hints, pictures; Ajv against the engine schema; preview is a description (not the Flutter rendering); Flutter contract test"
+F-193 Quiz editor (questions and answers),14 Admin CMS,must,no,yes,[A] Phase 14 brief · Phase 14: questions / answers tables the app's quiz player reads; image and audio per question
+F-194 Media library with secure uploads,14 Admin CMS,must,no,partial,"[A] Phase 14 brief · Phase 14: staged upload → server type sniffing, size, SHA-256 → bucket; attach by role (video, audio, captions, covers, story pages). No transcoding, no resumable upload, no virus scan"
+"F-195 Subjects, categories and sub-categories",14 Admin CMS,must,no,yes,"[A] Phase 14 brief · Phase 14: CRUD, icons, order, enable/disable, delete only when unused"
+"F-196 Rewards configuration (badges, reward rules, goal defaults)",14 Admin CMS,must,no,yes,[A] Phase 14 brief · Phase 14: badge definitions draft → active → retired; reward rules; goal defaults in settings; star grants only through an audited support action
+"F-197 Family support tools (search, restriction, data requests)",14 Admin CMS,must,no,yes,[A] Phase 14 brief · Phase 14: minimum child data; suspend with reason (blocks play and media); export builds; deletion cancel on request
+"F-198 Subscription admin (plans, status, payments)",14 Admin CMS,must,no,partial,[A] Phase 14 brief · Phase 14: plan metadata editable; subscriptions and payments read-only; no payment processing (webhooks not connected)
+"F-199 Admin users, settings and audit log",14 Admin CMS,must,no,yes,"[A] Phase 14 brief · Phase 14: roles and status (not yourself, last super admin kept); validated system settings; append-only audit log with filters"
+"F-200 Web: parent registration, login, code sign-in, password recovery, sign-out",15 Web,must,no,yes,"[A] Phase 15 brief · Phase 15: email code + family set-up with consents (onboarding/complete), optional password, recovery by code, global sign-out; protected routes"
+"F-201 Web: child zone (who's playing, home, buddy, subjects, categories)",15 Web,must,no,yes,"[A] Phase 15 brief · Phase 15: /who, /kids, buddy change (PATCH children), subjects/categories by age and parent switches"
+"F-202 Web: learning paths, courses, lessons with prerequisites",15 Web,must,no,yes,"[A] Phase 15 brief · Phase 15: course map with locked/ready/done lessons, step list, course progress; lesson steps completed by web play"
+"F-203 Web: all 16 game kinds with mouse, touch and keyboard",15 Web,must,no,yes,[A] Phase 15 brief · Phase 15: TypeScript port of the Flutter engine (golden-file parity with the Dart engine); drag and tap-to-place; tracing
+"F-204 Web: video, songs, illustrated stories with resume",15 Web,must,no,yes,"[A] Phase 15 brief · Phase 15: play/launch gate + signed URLs, captions, continue watching/reading across devices, heartbeats and daily limit"
+"F-205 Web: rewards, stars, goals, badges for the child",15 Web,must,no,yes,[A] Phase 15 brief · Phase 15: children/:id/rewards; stars awarded server-side for web sessions
+"F-206 Web: parent dashboard (overview, day/week/month reports, goals, controls)",15 Web,must,no,yes,"[A] Phase 15 brief · Phase 15: progress/overview and report, charts with tables, goals and screen-time controls, notifications, privacy, children"
+F-207 Web: subscription information,15 Web,must,no,partial,[A] Phase 15 brief · Phase 15: status and plans shown; no purchase (no payments connected in any app)
+"F-208 Web: responsive layouts (desktop, laptop, tablet, phone)",15 Web,must,no,yes,"[A] Phase 15 brief · Phase 15: rail vs bottom bar, grids vs scrolling shelves; no sideways scroll on 12 screens × 4 sizes"
+F-209 Web: offline play and downloads,15 Web,must,no,no,[A] Phase 15 brief · Not on the web: a browser tab has no reliable outbox (Flutter app only)

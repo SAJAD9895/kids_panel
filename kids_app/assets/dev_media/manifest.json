@@ -1,0 +1,1053 @@
+{
+ "generatedBy": "content/dev-media/make_dev_media.py",
+ "files": [
+  {
+   "bucket": "content",
+   "path": "calm-breathing/1/pages/1.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 5288,
+   "sha256": "8627a5329a581d8c446479584de4a3fd6fd5faf4810d288504f121b26b9ff4b0",
+   "width": 960,
+   "height": 600,
+   "position": 0
+  },
+  {
+   "bucket": "content",
+   "path": "calm-breathing/1/pages/2.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 5806,
+   "sha256": "8a8742e2d12ace24c160aa23e0fb5b4dbfda4d57aa0222c59f41ad0181e9fd5a",
+   "width": 960,
+   "height": 600,
+   "position": 1
+  },
+  {
+   "bucket": "content",
+   "path": "calm-breathing/1/pages/3.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 7118,
+   "sha256": "ce9aaed76edf56e4d04369822961e27b4be2673eef182e97a5d57133d002b6cb",
+   "width": 960,
+   "height": 600,
+   "position": 2
+  },
+  {
+   "bucket": "content",
+   "path": "calm-breathing/1/pages/4.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 6860,
+   "sha256": "6f4be03bb06a63d6782821627980a271f0fe2ebe8535a3f493e32f10cfce46d0",
+   "width": 960,
+   "height": 600,
+   "position": 3
+  },
+  {
+   "bucket": "content",
+   "path": "calm-breathing/1/pages/5.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 5622,
+   "sha256": "6bd5ea2e1dab1b663b674f39319541961116dcc118757097179fd2ccd031bb3c",
+   "width": 960,
+   "height": 600,
+   "position": 4
+  },
+  {
+   "bucket": "content",
+   "path": "calm-breathing/1/pages/6.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 7680,
+   "sha256": "023b93f344842bbd17ff818bcd03c3d543c36ca5afcf0443c09443619cbb15c8",
+   "width": 960,
+   "height": 600,
+   "position": 5
+  },
+  {
+   "bucket": "content",
+   "path": "nova-counts-the-stars/1/pages/1.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 6382,
+   "sha256": "603547059d30f1e25cc9c4c269edf71f0740cb9be81d587a1a0ef5c89fdbfaad",
+   "width": 960,
+   "height": 600,
+   "position": 0
+  },
+  {
+   "bucket": "content",
+   "path": "nova-counts-the-stars/1/pages/2.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 4774,
+   "sha256": "1c09784cded7b937224c7ef39489c46b67cd5371d25749033112755ae86c4105",
+   "width": 960,
+   "height": 600,
+   "position": 1
+  },
+  {
+   "bucket": "content",
+   "path": "nova-counts-the-stars/1/pages/3.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 5804,
+   "sha256": "aa74122471183dd4fa4213d90b5320198ea36358f67d8329b86b8b788b90f2d9",
+   "width": 960,
+   "height": 600,
+   "position": 2
+  },
+  {
+   "bucket": "content",
+   "path": "nova-counts-the-stars/1/pages/4.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 8570,
+   "sha256": "99bb34d8f23f1ac3db8213d88332b98c4cadfc0076e6832bf01b88d76cf99704",
+   "width": 960,
+   "height": 600,
+   "position": 3
+  },
+  {
+   "bucket": "content",
+   "path": "nova-counts-the-stars/1/pages/5.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 8120,
+   "sha256": "63b0c312c2ec8dce42bd3e4eb9eacd4c25519be28a18b72bf3005043fc116236",
+   "width": 960,
+   "height": 600,
+   "position": 4
+  },
+  {
+   "bucket": "content",
+   "path": "nova-counts-the-stars/1/pages/6.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 6308,
+   "sha256": "12ea7846b6e4e3d3590ac0afffc8658757fdd0df1aaa294efa4a9be6b7a41182",
+   "width": 960,
+   "height": 600,
+   "position": 5
+  },
+  {
+   "bucket": "content",
+   "path": "pip-and-the-lost-seed/1/pages/1.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 5876,
+   "sha256": "309316ea93569ff72cfbb2a15920eaf85714d5665b1df70f9cadcd296296f2c7",
+   "width": 960,
+   "height": 600,
+   "position": 0
+  },
+  {
+   "bucket": "content",
+   "path": "pip-and-the-lost-seed/1/pages/2.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 6792,
+   "sha256": "7d1108ed1560876e91bbd576b7d79eaebda4beba845b70cce2bd9a858863a0f0",
+   "width": 960,
+   "height": 600,
+   "position": 1
+  },
+  {
+   "bucket": "content",
+   "path": "pip-and-the-lost-seed/1/pages/3.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 7570,
+   "sha256": "6d7292efa9062a3a8284e488fbb78c25e566fa01f7fa5a63905390fb393d173f",
+   "width": 960,
+   "height": 600,
+   "position": 2
+  },
+  {
+   "bucket": "content",
+   "path": "pip-and-the-lost-seed/1/pages/4.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 6812,
+   "sha256": "fcaebdb2f011b135ea1dc0696cafc2a412dc206811d081d6459fbf5071b35f95",
+   "width": 960,
+   "height": 600,
+   "position": 3
+  },
+  {
+   "bucket": "content",
+   "path": "pip-and-the-lost-seed/1/pages/5.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 6756,
+   "sha256": "6dac59b7950c7a6933744b305299c0ef1e967594ff61a69a99986a51fbace528",
+   "width": 960,
+   "height": 600,
+   "position": 4
+  },
+  {
+   "bucket": "content",
+   "path": "pip-and-the-lost-seed/1/pages/6.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 8052,
+   "sha256": "4237a780249e6ddde7bb6490052634e971ea17cdf57673b917e60cb6e52f3251",
+   "width": 960,
+   "height": 600,
+   "position": 5
+  },
+  {
+   "bucket": "content",
+   "path": "songs/counting-train/en.m4a",
+   "kind": "audio",
+   "mime": "audio/mp4",
+   "bytes": 374670,
+   "sha256": "b99ada9470ca199a7cda6f1f2bf0c0d3356404955d5b499caf7332de9aba7604",
+   "locale": "en",
+   "durationMs": 45136
+  },
+  {
+   "bucket": "content",
+   "path": "songs/feelings-song/en.m4a",
+   "kind": "audio",
+   "mime": "audio/mp4",
+   "bytes": 510336,
+   "sha256": "7b5af213650924d4d2bd6c6455ad397122066c2d9376a0dec3fc4bebf3d54772",
+   "locale": "en",
+   "durationMs": 61500
+  },
+  {
+   "bucket": "content",
+   "path": "songs/moon-lullaby/en.m4a",
+   "kind": "audio",
+   "mime": "audio/mp4",
+   "bytes": 507182,
+   "sha256": "2c1cf5bb986e3a8e4ac5bf6c6e7cec7187e943b7f4f00043e968ec68f599b774",
+   "locale": "en",
+   "durationMs": 61500
+  },
+  {
+   "bucket": "content",
+   "path": "songs/ten-little-seeds/en.m4a",
+   "kind": "audio",
+   "mime": "audio/mp4",
+   "bytes": 452098,
+   "sha256": "d6c49ff58954b57823c52ea959af48891c73776bfe01fd17c2a9276545779714",
+   "locale": "en",
+   "durationMs": 54833
+  },
+  {
+   "bucket": "content",
+   "path": "songs/tidy-up-tune/en.m4a",
+   "kind": "audio",
+   "mime": "audio/mp4",
+   "bytes": 391652,
+   "sha256": "c70056a2c89ed13b21f980800a95d42f707c5abf1f5b283684221e72b92fad64",
+   "locale": "en",
+   "durationMs": 47214
+  },
+  {
+   "bucket": "content",
+   "path": "the-sleepy-cloud/1/pages/1.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 4544,
+   "sha256": "ae30ada3e340ff75437c2298cffb896d560861b077ce287fe612bb15aefdf31b",
+   "width": 960,
+   "height": 600,
+   "position": 0
+  },
+  {
+   "bucket": "content",
+   "path": "the-sleepy-cloud/1/pages/2.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 4874,
+   "sha256": "7a43aefd9e924df9c56b7abc354ed185bc16d729f26530486705bedaadc1ae13",
+   "width": 960,
+   "height": 600,
+   "position": 1
+  },
+  {
+   "bucket": "content",
+   "path": "the-sleepy-cloud/1/pages/3.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 4360,
+   "sha256": "08520a9029eaa16036cb178b11be962db8252eab4b9313edc4927a32d276c172",
+   "width": 960,
+   "height": 600,
+   "position": 2
+  },
+  {
+   "bucket": "content",
+   "path": "the-sleepy-cloud/1/pages/4.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 4918,
+   "sha256": "80b53f8484ff993cf8b67a0f7cf5db1e9aca487f577aebe5063ead1e2bc351e0",
+   "width": 960,
+   "height": 600,
+   "position": 3
+  },
+  {
+   "bucket": "content",
+   "path": "the-sleepy-cloud/1/pages/5.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 6766,
+   "sha256": "5b7d949b36e2292219b1c2611fa25f2b7e6b0a1696cbc2cbab623710b0fcd80b",
+   "width": 960,
+   "height": 600,
+   "position": 4
+  },
+  {
+   "bucket": "content",
+   "path": "the-sleepy-cloud/1/pages/6.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 7574,
+   "sha256": "c4937e4901925d173635f8670a14883e100181546094dab4ce7dc806e021a80f",
+   "width": 960,
+   "height": 600,
+   "position": 5
+  },
+  {
+   "bucket": "public-assets",
+   "path": "badges/first-course/1/256.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 8780,
+   "sha256": "becfb4c13251d14a5216ceb36be10a30cc35bc8d823c622b0f1f0ece16174e33",
+   "width": 256,
+   "height": 256
+  },
+  {
+   "bucket": "public-assets",
+   "path": "badges/first-course/1/512.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 16230,
+   "sha256": "157bae549a5b706adcb8004fcea4774afabdeabbf0a70cc36bf7c497d7c093c9",
+   "width": 512,
+   "height": 512
+  },
+  {
+   "bucket": "public-assets",
+   "path": "badges/first-game/1/256.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 8660,
+   "sha256": "a55dee6ab89c2c6c59b91b677115ff8234747a3683c42856fb94d7ddc2f15759",
+   "width": 256,
+   "height": 256
+  },
+  {
+   "bucket": "public-assets",
+   "path": "badges/first-game/1/512.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 16148,
+   "sha256": "8780ad8c076cb5d3722f996e197b1ffb3eebfd2501287de0058f3ef77855a8a7",
+   "width": 512,
+   "height": 512
+  },
+  {
+   "bucket": "public-assets",
+   "path": "badges/first-island/1/256.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 8576,
+   "sha256": "f93aa56f25e76a5b32fe36cfdc1cc3e02869cb2b739368c89ef69aa762b8f618",
+   "width": 256,
+   "height": 256
+  },
+  {
+   "bucket": "public-assets",
+   "path": "badges/first-island/1/512.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 15704,
+   "sha256": "448b8b0e7b1ad632fd870d7343fbdeb1df131b976a26deed927de70d3c1b825e",
+   "width": 512,
+   "height": 512
+  },
+  {
+   "bucket": "public-assets",
+   "path": "badges/goal-1/1/256.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 9848,
+   "sha256": "bff18934ef33281a26d4809cab4cffbc6847ea2e458ab365e32a97a159538f6a",
+   "width": 256,
+   "height": 256
+  },
+  {
+   "bucket": "public-assets",
+   "path": "badges/goal-1/1/512.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 18576,
+   "sha256": "37bbae4e067de1e07f54eafbc5766a84c0a95caf2553cebe26867dd2008a7851",
+   "width": 512,
+   "height": 512
+  },
+  {
+   "bucket": "public-assets",
+   "path": "badges/goal-10/1/256.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 9900,
+   "sha256": "d4d4926fb968d2c95b58a92d0340f2cccbf1ca86177653d65112625e0e5006e2",
+   "width": 256,
+   "height": 256
+  },
+  {
+   "bucket": "public-assets",
+   "path": "badges/goal-10/1/512.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 18728,
+   "sha256": "ca243dad42dd33b376bc9549283d8639161b581463b539b5ac7b8cf304c93439",
+   "width": 512,
+   "height": 512
+  },
+  {
+   "bucket": "public-assets",
+   "path": "badges/letters/1/256.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 8484,
+   "sha256": "c3e042571781306700e63b49b0e28d8b478db3e5c83881c1ad0d51826f30def8",
+   "width": 256,
+   "height": 256
+  },
+  {
+   "bucket": "public-assets",
+   "path": "badges/letters/1/512.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 15234,
+   "sha256": "42b11f67a8174f783c0afab0fcbaef62fa076b9e84c0bf9fc31bc2cf4007e898",
+   "width": 512,
+   "height": 512
+  },
+  {
+   "bucket": "public-assets",
+   "path": "badges/numbers/1/256.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 8680,
+   "sha256": "0e4eb26ad292ccd9a091e1eeffdde99f9a87f6ec09670bd1460715441c263873",
+   "width": 256,
+   "height": 256
+  },
+  {
+   "bucket": "public-assets",
+   "path": "badges/numbers/1/512.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 15824,
+   "sha256": "d40e6fab7ae61675e59b156687dfd56ed06fa64d1c2727a5e95275d3f9547d02",
+   "width": 512,
+   "height": 512
+  },
+  {
+   "bucket": "public-assets",
+   "path": "badges/shapes/1/256.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 8504,
+   "sha256": "00c390e95a476ff76929d929f83996898437079f63c425a0a0d890f9cb494cf8",
+   "width": 256,
+   "height": 256
+  },
+  {
+   "bucket": "public-assets",
+   "path": "badges/shapes/1/512.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 15314,
+   "sha256": "a80ba5ffc2aa448ca0402d6edd48c2e41584e581ecfc6b14922457cdee421fe8",
+   "width": 512,
+   "height": 512
+  },
+  {
+   "bucket": "public-assets",
+   "path": "badges/stars-100/1/256.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 8924,
+   "sha256": "9aeab83755661fb18c54ef8593384574e490f68cc9b2d123b0cae9bc42d7e443",
+   "width": 256,
+   "height": 256
+  },
+  {
+   "bucket": "public-assets",
+   "path": "badges/stars-100/1/512.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 16724,
+   "sha256": "b2ca32d22339498a022cb5a810398edbfce82adbab6318a9e4e2b34d72711a92",
+   "width": 512,
+   "height": 512
+  },
+  {
+   "bucket": "public-assets",
+   "path": "badges/stars-25/1/256.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 8922,
+   "sha256": "4f284f65853b84dcd75482a4e1d4e1675f67abffabf2ba9f3c87db2d51645720",
+   "width": 256,
+   "height": 256
+  },
+  {
+   "bucket": "public-assets",
+   "path": "badges/stars-25/1/512.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 16852,
+   "sha256": "035d4472984e624ae8787c8b827a8b2d2a55253bdd1519a9f20b0051175cdf3e",
+   "width": 512,
+   "height": 512
+  },
+  {
+   "bucket": "public-assets",
+   "path": "badges/streak-3/1/256.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 8558,
+   "sha256": "3a8336c5e0ea10d34349f7058d92b7c8a139a88fb2296dd261f369089501b27b",
+   "width": 256,
+   "height": 256
+  },
+  {
+   "bucket": "public-assets",
+   "path": "badges/streak-3/1/512.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 15902,
+   "sha256": "29921031f131e15dd996d0b4e03aa1109504b10d92f7d3b63d140088afff2652",
+   "width": 512,
+   "height": 512
+  },
+  {
+   "bucket": "public-assets",
+   "path": "badges/streak-30/1/256.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 8338,
+   "sha256": "0b70f4547e325235a7d7b7ee9ebca82e2e544ac5d4c8b51c31fec0d0e1a42d7d",
+   "width": 256,
+   "height": 256
+  },
+  {
+   "bucket": "public-assets",
+   "path": "badges/streak-30/1/512.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 14724,
+   "sha256": "7c3627e22d5fe417958bd6a7f5cbe450581fe766af2e411769010e7258f66c99",
+   "width": 512,
+   "height": 512
+  },
+  {
+   "bucket": "public-assets",
+   "path": "badges/streak-7/1/256.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 8814,
+   "sha256": "4ee3ca3e92572de1a5929aa91b3c9da9615840da28dde066a5bc2b954ab55399",
+   "width": 256,
+   "height": 256
+  },
+  {
+   "bucket": "public-assets",
+   "path": "badges/streak-7/1/512.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 16060,
+   "sha256": "8a0b9d2d5e570d93626b65e3fe0f8a6d705f604cc7bc26e199a984b8a930a9da",
+   "width": 512,
+   "height": 512
+  },
+  {
+   "bucket": "public-assets",
+   "path": "badges/thinking/1/256.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 8346,
+   "sha256": "0cdf7dd9591c960c2072670eae760e4246a1cd66963476f2de531a9ec4c46b1e",
+   "width": 256,
+   "height": 256
+  },
+  {
+   "bucket": "public-assets",
+   "path": "badges/thinking/1/512.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 15186,
+   "sha256": "ce215bfdfb3bbae1e2a66031eddae4d66a7db7ed56e35e1e0048b84c79253fc4",
+   "width": 512,
+   "height": 512
+  },
+  {
+   "bucket": "public-assets",
+   "path": "badges/week-1/1/256.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 8638,
+   "sha256": "09600007cf84a7bf8f336fbb6aa81e67f2c0e2d85a6e990a2429e7069504411b",
+   "width": 256,
+   "height": 256
+  },
+  {
+   "bucket": "public-assets",
+   "path": "badges/week-1/1/512.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 15562,
+   "sha256": "7aebb530b9980c563a6c294e8e1ee43562ed846822b9f926a2da1e52de9eed75",
+   "width": 512,
+   "height": 512
+  },
+  {
+   "bucket": "public-assets",
+   "path": "badges/week-4/1/256.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 8502,
+   "sha256": "ddcc030d78f8d18bdaabb897f2873d1d0a210bf0d357630925bfa2226021d316",
+   "width": 256,
+   "height": 256
+  },
+  {
+   "bucket": "public-assets",
+   "path": "badges/week-4/1/512.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 15350,
+   "sha256": "153e08c2e23d91067ffa0cd16c2acdbbef6051aed55e6fd53944eaf7e3ec51a7",
+   "width": 512,
+   "height": 512
+  },
+  {
+   "bucket": "public-assets",
+   "path": "thumbs/calm-breathing/1/256.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 1334,
+   "sha256": "af66d292b92923b9c6abdfab78eeac2e5f88ce61211dfcddd0f407833c7b21f6",
+   "width": 256,
+   "height": 160
+  },
+  {
+   "bucket": "public-assets",
+   "path": "thumbs/calm-breathing/1/512.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 2506,
+   "sha256": "bf2892feec36bd9a2c7b7474e4779232ac403eb092556b1f9ea6c1a868b5bf1f",
+   "width": 512,
+   "height": 320
+  },
+  {
+   "bucket": "public-assets",
+   "path": "thumbs/counting-train/1/256.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 3138,
+   "sha256": "0cb2bee63262a85988c92750c0d6d9402ae5eec10b8a4e4539b3c63772076f33",
+   "width": 256,
+   "height": 256
+  },
+  {
+   "bucket": "public-assets",
+   "path": "thumbs/counting-train/1/512.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 5646,
+   "sha256": "64c8c91de166f1eae1196a790b04134b4299304ec56cad3d586cda38db071481",
+   "width": 512,
+   "height": 512
+  },
+  {
+   "bucket": "public-assets",
+   "path": "thumbs/feelings-song/1/256.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 2884,
+   "sha256": "64eb850257c3aab948986bd242e598f912013779cca9b2ec449fadce301540a1",
+   "width": 256,
+   "height": 256
+  },
+  {
+   "bucket": "public-assets",
+   "path": "thumbs/feelings-song/1/512.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 6826,
+   "sha256": "cb41aa56253a9b176b0eb6c961a0cb124e8dbd487262f2302d49c5f1f458fb77",
+   "width": 512,
+   "height": 512
+  },
+  {
+   "bucket": "public-assets",
+   "path": "thumbs/moon-lullaby/1/256.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 2452,
+   "sha256": "e2139ad70c5d800e1f241e22bdea9a8bee6c070c708402e44521fe35eb66e7b2",
+   "width": 256,
+   "height": 256
+  },
+  {
+   "bucket": "public-assets",
+   "path": "thumbs/moon-lullaby/1/512.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 5626,
+   "sha256": "e27ce290918cac3c7de75f075372e7d366ba9278debcf677568f8c545b69deb0",
+   "width": 512,
+   "height": 512
+  },
+  {
+   "bucket": "public-assets",
+   "path": "thumbs/nova-counts-the-stars/1/256.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 1356,
+   "sha256": "02d130d24ff41f52bf1dbb4acda86240c1aa6b57e54bb3dffee166d37190b038",
+   "width": 256,
+   "height": 160
+  },
+  {
+   "bucket": "public-assets",
+   "path": "thumbs/nova-counts-the-stars/1/512.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 2842,
+   "sha256": "3757151f065f0bcdef92aefedd8f517d22bfdaa014cf4f45f67770fd6bc76e14",
+   "width": 512,
+   "height": 320
+  },
+  {
+   "bucket": "public-assets",
+   "path": "thumbs/numbers-on-the-farm/1/256.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 1484,
+   "sha256": "e9bc2e443e9df7c1c000d87a492726b87dbb15ed09792724c5a10ffd2effc243",
+   "width": 256,
+   "height": 144
+  },
+  {
+   "bucket": "public-assets",
+   "path": "thumbs/numbers-on-the-farm/1/512.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 3206,
+   "sha256": "e0ba9570a25b4a33e39c8e1b6dbf19f5825cb34eaba85579b23e1fbb919fc345",
+   "width": 512,
+   "height": 288
+  },
+  {
+   "bucket": "public-assets",
+   "path": "thumbs/pip-and-the-lost-seed/1/256.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 1146,
+   "sha256": "06d514265ae1398af28619ec7da88507019483ad7d16899bd83451e71bf15028",
+   "width": 256,
+   "height": 160
+  },
+  {
+   "bucket": "public-assets",
+   "path": "thumbs/pip-and-the-lost-seed/1/512.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 2422,
+   "sha256": "2c83a9a0c60a92383bd5bf94cc63bb66600e6e530245c09460edc0108ad87413",
+   "width": 512,
+   "height": 320
+  },
+  {
+   "bucket": "public-assets",
+   "path": "thumbs/pip-meets-a-snail/1/256.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 2278,
+   "sha256": "fe7a52e8a974acbb6d0fdcf9349fcaf297c1cd972383b95ebd8958516f3e48bf",
+   "width": 256,
+   "height": 144
+  },
+  {
+   "bucket": "public-assets",
+   "path": "thumbs/pip-meets-a-snail/1/512.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 5222,
+   "sha256": "83ad39b8f1659515fd9d70dd2c9ca37977dbd22ce5fa9ef9ef4d6f5bb2c1ec1a",
+   "width": 512,
+   "height": 288
+  },
+  {
+   "bucket": "public-assets",
+   "path": "thumbs/rainbow-colours/1/256.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 2352,
+   "sha256": "704027c7d2829994b339633ad73d893d7cc09ae69af9f3e0b7ad2374692a083c",
+   "width": 256,
+   "height": 144
+  },
+  {
+   "bucket": "public-assets",
+   "path": "thumbs/rainbow-colours/1/512.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 5068,
+   "sha256": "0551b5a114fb152b503e39dbf17ac505422aa36860fa8f29f7594cc53263e9f7",
+   "width": 512,
+   "height": 288
+  },
+  {
+   "bucket": "public-assets",
+   "path": "thumbs/shapes-all-around/1/256.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 2040,
+   "sha256": "02b756f4f2823da99b5e9aa46307331b50e78775fa3720791391e9720cd7defa",
+   "width": 256,
+   "height": 144
+  },
+  {
+   "bucket": "public-assets",
+   "path": "thumbs/shapes-all-around/1/512.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 4304,
+   "sha256": "f1ca717fb6acc78b9b99bb70ed4e210c0e7835840a65cd0762a8e7a1dae79763",
+   "width": 512,
+   "height": 288
+  },
+  {
+   "bucket": "public-assets",
+   "path": "thumbs/ten-little-seeds/1/256.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 1942,
+   "sha256": "6f05b370ff224793c59892096d3aa54c2fea5a433a7f74b8170db51dbad7d6c2",
+   "width": 256,
+   "height": 256
+  },
+  {
+   "bucket": "public-assets",
+   "path": "thumbs/ten-little-seeds/1/512.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 4300,
+   "sha256": "1220f5658ff1ff971942ad39594bc0332226be9f0fb209ae3d7fde65c16dbdb8",
+   "width": 512,
+   "height": 512
+  },
+  {
+   "bucket": "public-assets",
+   "path": "thumbs/the-sleepy-cloud/1/256.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 908,
+   "sha256": "1cd7073a0f39d12e78c4ad6ca0d8c486ded1394e73164260ce049abb00a3f080",
+   "width": 256,
+   "height": 160
+  },
+  {
+   "bucket": "public-assets",
+   "path": "thumbs/the-sleepy-cloud/1/512.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 1872,
+   "sha256": "513a85ea8688e48c5743e364109c5ff5a70ba26d84c3e008cae4244ffca0833c",
+   "width": 512,
+   "height": 320
+  },
+  {
+   "bucket": "public-assets",
+   "path": "thumbs/tidy-up-tune/1/256.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 1690,
+   "sha256": "cd56dcb6b874d866a893f225c69e372a47f312ce08aa729ab3c193952d66e904",
+   "width": 256,
+   "height": 256
+  },
+  {
+   "bucket": "public-assets",
+   "path": "thumbs/tidy-up-tune/1/512.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 3540,
+   "sha256": "afd06648f0769cf6617fdfa9791f85b071c21a483790ba8790020cbae35a091b",
+   "width": 512,
+   "height": 512
+  },
+  {
+   "bucket": "public-assets",
+   "path": "thumbs/why-does-it-rain/1/256.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 1820,
+   "sha256": "63f202ad1db2ab4468bdd1f9a9054333b21092cb289dc90226eae6ed59e2d1b6",
+   "width": 256,
+   "height": 144
+  },
+  {
+   "bucket": "public-assets",
+   "path": "thumbs/why-does-it-rain/1/512.webp",
+   "kind": "image",
+   "mime": "image/webp",
+   "bytes": 4008,
+   "sha256": "8680682d4c61af6c0f313f08be45918d57a7bd5a2f4cba1459621f5b340fec83",
+   "width": 512,
+   "height": 288
+  },
+  {
+   "bucket": "video",
+   "path": "numbers-on-the-farm/mp4/540p.mp4",
+   "kind": "video_mp4",
+   "mime": "video/mp4",
+   "bytes": 376800,
+   "sha256": "06ee33ae885714b5311c3b501c8f67ed7fbeafd80cb409b9965040d9ac37767f",
+   "width": 640,
+   "height": 360,
+   "durationMs": 36000
+  },
+  {
+   "bucket": "video",
+   "path": "numbers-on-the-farm/subs/en.vtt",
+   "kind": "subtitle",
+   "mime": "text/vtt",
+   "bytes": 389,
+   "sha256": "9b4e4d661151fab2a7a70e7c856e09d517e8267bbef8e234ae512b3e70f09d7f",
+   "locale": "en"
+  },
+  {
+   "bucket": "video",
+   "path": "pip-meets-a-snail/mp4/540p.mp4",
+   "kind": "video_mp4",
+   "mime": "video/mp4",
+   "bytes": 529111,
+   "sha256": "52add4300016d771e93fb382204cd274ab6d2785f669508b28adf303c4d1a7e1",
+   "width": 640,
+   "height": 360,
+   "durationMs": 36000
+  },
+  {
+   "bucket": "video",
+   "path": "pip-meets-a-snail/subs/en.vtt",
+   "kind": "subtitle",
+   "mime": "text/vtt",
+   "bytes": 385,
+   "sha256": "0253ef4633e21dfa58bd49a1698666c07e8f7da2162111ea3e10d7fd8da1ac7a",
+   "locale": "en"
+  },
+  {
+   "bucket": "video",
+   "path": "rainbow-colours/mp4/540p.mp4",
+   "kind": "video_mp4",
+   "mime": "video/mp4",
+   "bytes": 375320,
+   "sha256": "599302b8283a4e66c0005164895ed8e9168cc4110da115ac41c3728ea8ecaab0",
+   "width": 640,
+   "height": 360,
+   "durationMs": 32000
+  },
+  {
+   "bucket": "video",
+   "path": "rainbow-colours/subs/en.vtt",
+   "kind": "subtitle",
+   "mime": "text/vtt",
+   "bytes": 288,
+   "sha256": "bba84ec8aef9666ff116b8955e7ac7167f6182ac1bb98f1dd916717cde3c945e",
+   "locale": "en"
+  },
+  {
+   "bucket": "video",
+   "path": "shapes-all-around/mp4/540p.mp4",
+   "kind": "video_mp4",
+   "mime": "video/mp4",
+   "bytes": 365006,
+   "sha256": "42c60d7669fbdc94169a017425aca4f7a408b65d56319d8821900dbee8284ac0",
+   "width": 640,
+   "height": 360,
+   "durationMs": 32000
+  },
+  {
+   "bucket": "video",
+   "path": "shapes-all-around/subs/en.vtt",
+   "kind": "subtitle",
+   "mime": "text/vtt",
+   "bytes": 321,
+   "sha256": "83e87995509796a7f5723a82c24a05649499377c4f6c85e8f245c7c9ebe7a1cb",
+   "locale": "en"
+  },
+  {
+   "bucket": "video",
+   "path": "why-does-it-rain/mp4/540p.mp4",
+   "kind": "video_mp4",
+   "mime": "video/mp4",
+   "bytes": 539703,
+   "sha256": "4b8d8f860017494abe48733d65f24f1fe9cfe676ec721d0e73066eed4f5dd7c0",
+   "width": 640,
+   "height": 360,
+   "durationMs": 36000
+  },
+  {
+   "bucket": "video",
+   "path": "why-does-it-rain/subs/en.vtt",
+   "kind": "subtitle",
+   "mime": "text/vtt",
+   "bytes": 282,
+   "sha256": "5c45eb24d64235b5d65a7596eb6b673d3b430ae86eaa5601175ca05358edcf55",
+   "locale": "en"
+  }
+ ],
+ "storyText": {
+  "the-sleepy-cloud": [
+   "A little cloud floated over the hill. She yawned a big, fluffy yawn.",
+   "The sun was going down, and the sky turned pink and orange.",
+   "Bird flew past. \"Goodnight, little cloud!\" she sang.",
+   "The cloud looked for a soft place to rest. The hill was too pointy.",
+   "The moon came up and made a silver bed in the sky.",
+   "The little cloud curled up, closed her eyes, and drifted off to sleep. Goodnight!"
+  ],
+  "calm-breathing": [
+   "Bolt's tower of blocks fell down. Crash! Bolt felt cross.",
+   "His face went hot and his hands went tight.",
+   "Pip said, \"Let's smell a flower and blow out a candle.\"",
+   "Breathe in through your nose... like smelling a flower.",
+   "Breathe out slowly... like blowing out a candle. Whoosh.",
+   "Bolt felt calm again. Together, they built an even taller tower!"
+  ],
+  "pip-and-the-lost-seed": [
+   "Pip had one tiny seed. \"Where shall I plant you?\" asked Pip.",
+   "Whoosh! The wind blew the seed away.",
+   "Pip looked under a leaf. No seed. Pip looked in a flower. No seed.",
+   "A snail pointed with its feelers. \"Over there, in the soft soil!\"",
+   "Rain came, and sun came. A little green shoot popped up.",
+   "The lost seed had found the perfect home. It grew into a flower!"
+  ],
+  "nova-counts-the-stars": [
+   "When the sky was dark, Nova liked to count the stars.",
+   "One star, two stars, three stars, twinkling high.",
+   "Four stars, five stars, a little line of light.",
+   "A cloud drifted by and hid some stars. \"Come back!\" said Nova.",
+   "The cloud moved on. Six, seven, eight, nine, ten!",
+   "\"Goodnight, stars,\" whispered Nova. \"I'll count you again tomorrow.\""
+  ]
+ }
+}

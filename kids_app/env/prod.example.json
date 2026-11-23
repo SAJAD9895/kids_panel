@@ -1,0 +1,11 @@
+{
+  "APP_ENV": "prod",
+  "SUPABASE_URL": "",
+  "SUPABASE_PUBLISHABLE_KEY": "",
+  "AUTH_REDIRECT_URL": "io.kidslearning.app://auth/callback",
+  "ENABLE_APPLE_SIGN_IN": "false",
+  "ENABLE_GOOGLE_SIGN_IN": "false",
+  "TERMS_URL": "",
+  "PRIVACY_URL": "",
+  "POLICY_VERSION": "2026-11"
+}

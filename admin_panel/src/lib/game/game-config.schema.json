@@ -1,0 +1,484 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "learning_engine/1.0.0",
+  "title": "games.config for the learning engine",
+  "description": "One list of items, or 2+ difficulty levels (easiest first). Kinds and fields: docs/games/content-requirements.md. The app re-checks every item when it parses it.",
+  "type": "object",
+  "properties": {
+    "intro": {
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "object",
+          "properties": {
+            "text": {
+              "$ref": "#/$defs/text"
+            },
+            "speak": {
+              "$ref": "#/$defs/text"
+            }
+          }
+        }
+      ]
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/item"
+      },
+      "maxItems": 30
+    },
+    "levels": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/level"
+      },
+      "minItems": 1,
+      "maxItems": 5
+    }
+  },
+  "anyOf": [
+    {
+      "required": [
+        "items"
+      ]
+    },
+    {
+      "required": [
+        "levels"
+      ]
+    }
+  ],
+  "$defs": {
+    "text": {
+      "oneOf": [
+        {
+          "type": "string",
+          "maxLength": 200
+        },
+        {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string",
+            "maxLength": 200
+          }
+        }
+      ]
+    },
+    "picture": {
+      "type": "string",
+      "pattern": "^(shape|icon|char|glyph|count|half|gap|asset):[^\\s]+$"
+    },
+    "choice": {
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "label": {
+              "$ref": "#/$defs/text"
+            },
+            "picture": {
+              "$ref": "#/$defs/picture"
+            },
+            "speak": {
+              "$ref": "#/$defs/text"
+            }
+          }
+        }
+      ]
+    },
+    "item": {
+      "type": "object",
+      "required": [
+        "kind"
+      ],
+      "properties": {
+        "kind": {
+          "enum": [
+            "arithmetic",
+            "audio_choice",
+            "drag_to_target",
+            "fill_blank",
+            "image_choice",
+            "jigsaw",
+            "letter_recognition",
+            "match_pairs",
+            "memory",
+            "multiple_choice",
+            "number_recognition",
+            "puzzle",
+            "shape_complete",
+            "sort",
+            "trace",
+            "word_build"
+          ]
+        },
+        "prompt": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "$ref": "#/$defs/text"
+                },
+                "speak": {
+                  "$ref": "#/$defs/text"
+                },
+                "picture": {
+                  "$ref": "#/$defs/picture"
+                }
+              }
+            }
+          ]
+        },
+        "hint": {
+          "$ref": "#/$defs/text"
+        },
+        "options": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/choice"
+          },
+          "minItems": 2,
+          "maxItems": 8
+        },
+        "cards": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/choice"
+          },
+          "minItems": 2,
+          "maxItems": 8
+        },
+        "timer": {
+          "type": "boolean"
+        },
+        "target": {
+          "type": [
+            "string",
+            "integer"
+          ]
+        },
+        "mode": {
+          "enum": [
+            "name",
+            "sound",
+            "case"
+          ]
+        },
+        "count": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 10
+        },
+        "a": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "b": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "op": {
+          "enum": [
+            "+",
+            "-"
+          ]
+        },
+        "grid": {
+          "type": "integer",
+          "minimum": 2,
+          "maximum": 4
+        },
+        "word": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 8
+        },
+        "glyph": {
+          "type": "string",
+          "maxLength": 1
+        },
+        "shape": {
+          "enum": [
+            "circle",
+            "square",
+            "triangle",
+            "star",
+            "heart"
+          ]
+        },
+        "missing": {
+          "enum": [
+            "left",
+            "right",
+            "top",
+            "bottom"
+          ]
+        },
+        "picture": {
+          "$ref": "#/$defs/picture"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "arithmetic"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "kind",
+              "a",
+              "b"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "audio_choice"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "kind",
+              "options",
+              "correct",
+              "prompt"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "drag_to_target"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "kind",
+              "tokens",
+              "targets",
+              "solution"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "fill_blank"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "kind",
+              "sentence",
+              "options",
+              "correct"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "image_choice"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "kind",
+              "options",
+              "correct"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "jigsaw"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "kind",
+              "picture"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "letter_recognition"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "kind",
+              "target"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "match_pairs"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "kind",
+              "pairs"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "memory"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "kind",
+              "cards"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "multiple_choice"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "kind",
+              "options",
+              "correct"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "shape_complete"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "kind",
+              "shape"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "sort"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "kind",
+              "bins",
+              "items"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "word_build"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "kind",
+              "word"
+            ]
+          }
+        }
+      ]
+    },
+    "level": {
+      "type": "object",
+      "required": [
+        "id",
+        "items"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]{1,32}$"
+        },
+        "label": {
+          "$ref": "#/$defs/text"
+        },
+        "minAgeMonths": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 144
+        },
+        "options": {
+          "type": "integer",
+          "minimum": 2,
+          "maximum": 8
+        },
+        "attempts": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/item"
+          },
+          "minItems": 1,
+          "maxItems": 30
+        }
+      }
+    }
+  }
+}
