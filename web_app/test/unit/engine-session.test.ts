@@ -45,7 +45,7 @@ import {
   textOf,
   toSnapshot,
 } from "@/lib/engine";
-import { everyKindConfig, seedConfigs } from "./engine-helpers";
+import { contentPackConfigs, everyKindConfig, seedConfigs } from "./engine-helpers";
 
 const registry = standardRegistry();
 const policy = makePolicy({ maxOptions: 4, maxAttempts: 3 });
@@ -367,6 +367,31 @@ describe("content in the repo", () => {
       }
     }
     expect(kinds).toEqual(new Set(registry.keys));
+  });
+
+  it("every game in the content packs (supabase/content) plays: each level, each age, each item solvable", () => {
+    const configs = contentPackConfigs();
+    expect(Object.keys(configs).length).toBeGreaterThanOrEqual(9);
+    const seeded = new Set(Object.keys(seedConfigs()));
+    let n = 0;
+    for (const [slug, config] of Object.entries(configs)) {
+      expect(seeded.has(slug), `${slug} is also in seed.sql`).toBe(false);
+      const base = fromConfig({ activityId: slug, config });
+      expect(isPlayable(base), slug).toBe(true);
+      expect(base.levels.length, `${slug} has Easy/Medium/Hard`).toBeGreaterThanOrEqual(2);
+      for (const age of [24, 48, 72, 108]) {
+        for (const level of base.levels) {
+          const src = forLevel(base, level.id);
+          expect(() => buildItems(src, registry, policyForChild(age), "s"), `${slug}/${level.id} at ${age} months`).not.toThrow();
+        }
+      }
+      for (const level of base.levels) {
+        for (const raw of level.rawItems) {
+          const spec = registry.parseItem(raw, { itemId: `i${n++}`, seed: 7, policy: makePolicy({ maxOptions: 6 }) });
+          if (spec.kind !== "trace" && spec.kind !== "memory") expect(registry.solution(spec), `${slug}/${level.id}/${spec.kind}`).not.toBeNull();
+        }
+      }
+    }
   });
 
   it("every published game config in seed.sql parses, for every level and age", () => {
